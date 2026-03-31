@@ -36,6 +36,14 @@ Strategi baseline menggunakan kombinasi:
 - take profit hint
 - reason / debug data
 
+## Backtest
+Tersedia backtest dasar berbasis candle berikutnya:
+```bash
+python backtest.py
+```
+
+Jika ingin memakai data CSV sendiri, loader sudah disiapkan di `signal_bot/csv_loader.py`.
+
 ## Disclaimer
 Bot ini untuk riset dan paper testing. Tidak menjamin profit atau win rate tertentu.
 
