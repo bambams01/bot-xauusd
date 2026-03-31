@@ -17,3 +17,8 @@ session_filter:
   enabled: false
   start_hour_utc: 7
   end_hour_utc: 18
+backtest:
+  spread_points: 0.2
+  slippage_points: 0.1
+  max_hold_bars: 3
+  point_value: 1.0
