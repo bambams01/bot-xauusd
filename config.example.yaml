@@ -1,0 +1,19 @@
+symbol: XAUUSD
+ timeframe: 5m
+ strategy:
+   ema_fast: 20
+   ema_slow: 50
+   rsi_period: 14
+   rsi_buy_threshold: 52
+   rsi_sell_threshold: 48
+   atr_period: 14
+   atr_sl_multiplier: 1.2
+   atr_tp_multiplier: 1.8
+   min_atr: 0.8
+ risk:
+   paper_balance: 1000
+   risk_per_trade_pct: 1.0
+ session_filter:
+   enabled: false
+   start_hour_utc: 7
+   end_hour_utc: 18
